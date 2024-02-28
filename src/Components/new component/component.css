@@ -1,0 +1,101 @@
+.icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.scales img{
+    grid-column: 3;
+    float: right;
+}
+
+.wrap {
+    background-color: red;
+    color: white;
+    border-radius: 40%;
+    padding: 7px 14px;
+    font-weight: 700;
+}
+
+.heart img{
+    float: right;
+}
+
+.discount div{
+   float: left;
+}
+
+.product {
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.text {
+    min-width: 100px;
+}
+
+.photo {
+    width: 100%;
+    min-width: 100px;
+}
+
+.icons img {
+    height: 100%;
+    width: 30%;
+    min-height: 25px;
+    min-width: 25px;
+}
+
+.ratings {
+    display: flex;
+    flex-direction: row;
+}
+
+.stars {
+    height: 28px;
+    min-width: 90px;
+    width: 60%;
+}
+
+.comment {
+    height: 14px;
+    vertical-align: bottom;
+}
+
+.comment-count {
+    margin-left: 3px;
+    font-size: 13px;
+}
+
+.oldPrice {
+    color: gray;
+}
+
+.newPrice {
+    color: red;
+}
+
+.avaliable {
+    color: green;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.buySegment {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 26px;
+}
+
+.buy {
+    height: 1.5em;
+}
+
+.cart {
+    height: 100%;
+    float: right;
+}

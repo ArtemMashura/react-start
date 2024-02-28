@@ -1,0 +1,63 @@
+.App {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.itemBox {
+  border: 1px solid;
+  border-color: gray;
+  height: 200px;
+  padding: 24px;
+}
+
+.UserPhoto {
+  height: 100%;
+  padding-right: 5px;
+}
+
+.PhotoBox {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.data {
+  margin-left: 15px;
+}
+
+.productInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid;
+  border-color: gray;
+  height: 200px;
+  padding: 24px;
+}
+
+.name {
+  margin-top: 30px;
+  height: 70px;
+}
+
+.price {
+  height: 50px;
+}
+
+.buyBTN {
+  width: auto;
+  position: relative;
+  width: 50px;
+  padding: 10px;
+  background-color: yellow;
+  border-radius: 30px;
+}
